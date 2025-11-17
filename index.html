@@ -3,34 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
     <title>Verde Ação</title>
+
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
-
-    
 </head>
 
 <body>
     <header>
-    <h2>Verde Ação</h2>
+        <h2>Verde Ação</h2>
 
         <nav>
-            <a href="#">Atividades</a>
-            <a href="#">Cadastre-se</a>
+            <a href="#atividades">Atividades</a>
+            <a href="#cadastro">Cadastre-se</a>
         </nav>
     </header>
-    <main>
-        <section class="background">
 
-        
+    <main>
+
+        <section class="background">
             <h1>Verde Ação</h1>
-            <p>Ser voluntário na Verde Ação é plantar esperança e colher transformação. Juntos, cuidamos do planeta e
-                inspiramos mudanças reais!</p>
-            <button>Quero ser voluntuntário</button>
+            <p>Ser voluntário na Verde Ação é plantar esperança e colher transformação. 
+               Juntos, cuidamos do planeta e inspiramos mudanças reais!</p>
+            <button>Quero ser voluntário</button>
         </section>
+
+        <section id="atividades" class="cards">
+
+            <article class="card">
+                <img src="img/girassol.png" alt="Imagem de girassol">
+                <h3>Plantio de mudas</h3>
+                <p>Cada muda plantada ajuda a restaurar o meio ambiente.</p>
+                <button>Ver mais</button>
+            </article>
+
+            <article class="card">
+                <img src="img/criancas.png" alt="Crianças em atividade ambiental">
+                <h3>Educação Ambiental</h3>
+                <p>Promove oficinas e rodas de conversa.</p>
+                <button>Ver mais</button>
+            </article>
+
+            <article class="card">
+                <img src="img/plantacao.png" alt="Plantação verde">
+                <h3>Cuidados</h3>
+                <p>Ajude a manter áreas preservadas.</p>
+                <button>Ver mais</button>
+            </article>
+
+            <article class="card">
+                <img src="img/florestas.png" alt="Florestas para mapeamento">
+                <h3>Mapeamento</h3>
+                <p>Identifique áreas que precisam de mapeamento.</p>
+                <button>Ver mais</button>
+            </article>
+
+        </section>
+
+        <section id="cadastro" class="cadastro">
+            <h2>Cadastre-se como voluntário</h2>
+            <p>Faça parte de ações que transformam o mundo. 
+               Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade.</p>
+
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" placeholder="Cidade" required>
+                <button class="btn-form" type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <footer class="rodape">
+            <p>2025 Verde Ação — Todos os direitos reservados.</p>
+        </footer>
+
     </main>
 </body>
-
 </html>

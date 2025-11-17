@@ -8,52 +8,127 @@ header {
   background-color: #66BB6A;
   height: 20vh;
   color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
 }
 header h2 {
-  display: block;
-  display: inline;
   display: inline-block;
   width: 40%;
-  padding-left: 160px;
-  margin-top: 40px;
+  text-align: left;
+  padding-left: 100px;
 }
 header nav {
-  display: block;
-  display: inline;
-  width: 40%;
   display: inline-block;
-  text-align: end;
+  width: 40%;
+  text-align: right;
 }
 header nav a {
   margin-left: 40px;
   color: #ffffff;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .background {
   height: 70vh;
-  background-image: url("background.png");
+  background-image: url("img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #ffffff;
   text-align: center;
-  padding-top: 180px;
+  color: white;
+  padding-top: 100px;
 }
 .background h1 {
   font-size: 5rem;
+  font-family: "Sansita Swashed";
   margin-bottom: 20px;
-  font-family: "Sansita Swashed", sans-serif;
 }
 .background p {
-  font-size: 2rem;
-  width: 50%;
-  margin-bottom: 20px;
-  margin-left: 450px;
+  width: 70%;
+  margin: auto;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
 }
 .background button {
-  background-color: #66BB6A;
-  color: #ffffff;
+  background-color: #66bb6a;
+  color: #fff;
   border: none;
   padding: 15px 30px;
   border-radius: 30px;
+  cursor: pointer;
+}
+
+.cards {
+  background-color: #f1f8e9;
+  text-align: center;
+  padding: 50px 0;
+}
+.cards .card {
+  width: 22%;
+  background-color: greenyellow;
+  border: solid 2px green;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px;
+  padding-bottom: 15px;
+}
+.cards .card img {
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.cards .card h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+.cards .card p {
+  margin-top: 10px;
+}
+.cards .card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #66bb6a;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+.cadastro {
+  text-align: center;
+  padding: 50px 0;
+}
+.cadastro p {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.cadastro form {
+  width: 300px;
+  margin: auto;
+}
+.cadastro form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #999;
+}
+.cadastro form .btn-form {
+  width: 100%;
+  padding: 12px;
+  background-color: #66bb6a;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.rodape {
+  background-color: #66BB6A;
+  text-align: center;
+  padding: 20px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
